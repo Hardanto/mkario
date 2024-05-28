@@ -1,0 +1,11 @@
+{
+	"autoload":{
+		"psr-4": {
+			"Heart\\":		"system/Heart",
+			"Processor\\": 	"system/Processor",
+			"Spine\\": 		"system/Spine",
+			"Required\\": 	"system/Required",
+			"Required\\Testfolder\\": "system/Required/testfolder"
+		}
+	}
+}

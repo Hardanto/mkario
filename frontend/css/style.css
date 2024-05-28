@@ -1,0 +1,58 @@
+@import "footer.css";
+@import "forms.css";
+@import "header.css";
+@import "images.css";
+@import "typography.css";
+
+/* body {
+	position:			relative;
+	display:			grid;
+	grid-template-rows:	auto 1fr;
+	min-height:			100vh;
+} */
+
+header {
+	position:			relative;
+	background-color: 	indigo;
+	color:				white;
+	z-index:			2;
+}
+
+div.body-container {
+	position:			absolute;
+	min-height:			100vh;
+	width:				100%;
+	top:				0;
+	background-color:	blue;
+	z-index:			1;
+}
+
+div.container-one, div.container-two {
+	padding:	50px 0;
+}
+
+div.container-about {
+	padding:	100px 0;
+}
+
+div.offwhite-bg {
+	background-color: #FAFAFA;
+}
+
+img.languages {
+	width: 100%;
+}
+
+.mobile-hidden {
+	display: none;
+}
+
+@media (min-width: 992px) {
+	.spacer {
+		display: none;
+	}
+
+	.mobile-hidden {
+		display: block;
+	}
+}

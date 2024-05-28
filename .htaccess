@@ -1,0 +1,29 @@
+RewriteEngine On
+RewriteBase /portfolio/
+
+# if requested resource isn't a file
+# and isn't a directory
+# then serve local error script 
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+#RewriteCond %{DOCUMENT_ROOT}/portfolio/$1\.php -f [NC]
+#RewriteRule ^(.+?)/?$ $1.php [L]
+
+
+# Error pages
+ErrorDocument 404 /portfolio/errors/error_404.php
+
+# Landing page
+#RewriteRule !\.(?:jpe?g|gif|bmp|png|tiff|css|js)$ /frontend/landing.php [L,NC]
+RewriteRule ^$ index.php
+RewriteRule ^home$ frontend/landing.php
+RewriteRule ^about$ frontend/about.php
+RewriteRule ^projects$ frontend/projects.php
+RewriteRule ^contact$ frontend/contact.php
+RewriteRule ^login$ frontend/projects/login.php
+RewriteRule ^modal$ frontend/projects/modal.php
+
+# Load vendor files
+RewriteRule ^vendor/autoload$ vendor/autoload.php
+#RewriteRule ^vendor/composer/autoload_real$ composer/autoload_real.php
+
