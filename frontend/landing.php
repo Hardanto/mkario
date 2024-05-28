@@ -24,7 +24,7 @@ $test = new \Required\DatabasePreparations();
 		<meta name='author' content='Mitch Karioredjo'/>
 		<meta name='language' conten='english'/>
 		<meta name='robots' content='index,follow'/>
-        <!-- <meta content='Portfolio' name='keywords'/> -->
+        <meta content='Portfolio' name='keywords'/>
         
         
         <link rel='stylesheet' href='frontend/css/style.css'/>
