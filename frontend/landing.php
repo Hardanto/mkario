@@ -25,6 +25,31 @@ $test = new \Required\DatabasePreparations();
 		<meta name='language' conten='english'/>
 		<meta name='robots' content='index,follow'/>
         <meta content='Portfolio' name='keywords'/>
+
+		<!-- 
+			Open Graph Protocol for social media cards 
+			Minimum 4 elements
+		-->
+		<!-- The title should reflect the webpage and not the whole website -->
+		<meta property='og:title' content='Welcome to my portfolio ' />
+
+		<!-- Inform the content that is shared as a website -->
+		<meta property='og:type' content='website' />
+
+		<!-- Preferred page to land on using the card -->
+		<meta property='og:url' content='https://www.mkario.com/' />
+
+		<!-- Preferred Image to use on card -->
+		<meta property='og:image' content='frontend/img/Favicon.png' />
+        
+		<!-- If description is shown, inform the users what this website or webpage is about -->
+		<meta property='og:description' content='Showing what the strength of this person is.' />
+        
+		<!-- Inform the social media platform the language -->
+		<meta property='og:locale' content='en_US' />
+        
+		<!-- Display the name of the website -->
+		<meta property='og:site_name' content='MKario' />
         
         
         <link rel='stylesheet' href='frontend/css/style.css'/>
