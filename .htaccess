@@ -1,5 +1,5 @@
 RewriteEngine On
-RewriteBase /portfolio/
+RewriteBase /
 
 # if requested resource isn't a file
 # and isn't a directory
