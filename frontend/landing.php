@@ -31,7 +31,7 @@ $test = new \Required\DatabasePreparations();
 			Minimum 4 elements
 		-->
 		<!-- The title should reflect the webpage and not the whole website -->
-		<meta property='og:title' content='Welcome to my portfolio ' />
+		<meta property='og:title' content='The portfolio of a great developer' />
 
 		<!-- Inform the content that is shared as a website -->
 		<meta property='og:type' content='website' />
@@ -51,6 +51,9 @@ $test = new \Required\DatabasePreparations();
 		<!-- Display the name of the website -->
 		<meta property='og:site_name' content='MKario' />
         
+		<!--
+			Reached the end of known OGP met tags
+		-->
         
         <link rel='stylesheet' href='frontend/css/style.css'/>
         
