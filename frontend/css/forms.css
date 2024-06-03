@@ -5,13 +5,13 @@ form {
 }
 
 .form-field, .form-buttons {
-    margin: 10px 0;
+    margin: 20px 0;
 }
 
 @media (min-width: 992px) {
 
     .form-field {
-        margin: 10px 15%;
+        margin: 20px 15%;
     }
 
     .form-buttons {

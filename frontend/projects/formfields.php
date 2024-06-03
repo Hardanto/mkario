@@ -64,9 +64,21 @@ $test = new \Required\DatabasePreparations();
                             <h2 class="fw-light text-center">Booking a seat</h2>
                             <p class="fw-light text-center">Try the form, it won't store what you entered</p>
                         </div>
-                        <div class="form-field form-floating">
-                            <input type="text" class="form-control" name="bookers_name" id ="bookers_name" placeholder="Enter your Name" required>
-                            <label for="bookers_name">Name</label>
+                        <div class="form-field">
+                            <div class="row">
+                                <div class="col">
+                                    <div class="form-floating">
+                                        <input type="text" class="form-control" name="bookers_first_name" id ="bookers_first_name" placeholder="Enter your First Name" required>
+                                        <label for="bookers_first_name">First Name</label>
+                                    </div>
+                                </div>
+                                <div class="col">
+                                    <div class="form-floating">
+                                        <input type="text" class="form-control" name="bookers_last_name" id ="bookers_last_name" placeholder="Enter your Last Name" required>
+                                        <label for="bookers_last_name">Last Name</label>
+                                    </div>
+                                </div>
+                            </div>
                         </div>  
                         <div class="form-field form-floating">
                             <input type="date" class="form-control" id="booking_date" name="booking_date" required>
@@ -89,7 +101,7 @@ $test = new \Required\DatabasePreparations();
                             <label for="booking_location">Location</label>
                         </div>
                         <div class="form-buttons">
-                            <button type="cancel" class="btn btn-secondary">Cancel</button>
+                            <button type="reset" class="btn btn-secondary">Cancel</button>
                             <button type="submit" class="btn btn-primary">Submit</button>
                         </div>
                     </form>
