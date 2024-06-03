@@ -3,3 +3,18 @@ form {
     border-radius: 0.375rem;
     box-shadow:  4px 4px 20px #EEE;
 }
+
+.form-field, .form-buttons {
+    margin: 10px 0;
+}
+
+@media (min-width: 992px) {
+
+    .form-field {
+        margin: 10px 15%;
+    }
+
+    .form-buttons {
+        margin: 25px 15%;
+    }
+}
