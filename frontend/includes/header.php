@@ -20,6 +20,11 @@
 			<div class='col'>
 				&nbsp;
 			</div>
+
+			<!-- 
+				On smaller screens
+			-->
+
 			<div class='col-12 col-lg-1 d-flex align-items-center justify-content-center spacer' data-bs-theme='dark'>
 			<!--<div class='collapse navbar-collapse' data-bs-theme='dark'> -->
 				<div class='spacer'>
@@ -49,6 +54,11 @@
 					</ul>
 				</div>
 			</div>
+
+			<!-- 
+				On bigger screens
+			-->
+
 			<div class='col-12 col-lg d-flex align-items-center justify-content-end mobile-hidden' data-bs-theme='dark'>
 			<!--<div class='collapse navbar-collapse' data-bs-theme='dark'> -->
 				<div class='mobile-hidden'>
