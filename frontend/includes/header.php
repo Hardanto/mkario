@@ -42,6 +42,7 @@
 								<li><a class='dropdown-item' href="login">Login</a></li>
 								<li><a class='dropdown-item' href="modal">Modal</a></li>
 								<li><a class='dropdown-item' href="formfields">Forms</a></li>
+								<li><a class='dropdown-item' href="mediafiles">Media Files</a></li>
 								<!-- <li><a class='dropdown-item' href="#">Bisszip</a></li> -->
 								<!-- <li><a class='dropdown-item' href="#">Presence</a></li> -->
 								<!-- <li><a class='dropdown-item' href="#">MERN Project</a></li> -->
@@ -76,6 +77,7 @@
 								<li><a class='dropdown-item' href="login">Login</a></li>
 								<li><a class='dropdown-item' href="modal">Modal</a></li>
 								<li><a class='dropdown-item' href="formfields">Forms</a></li>
+								<li><a class='dropdown-item' href="mediafiles">Media Files</a></li>
 								<!-- <li><a class='dropdown-item' href="#">Bisszip</a></li> -->
 								<!-- <li><a class='dropdown-item' href="#">Presence</a></li> -->
 								<!-- <li><a class='dropdown-item' href="#">MERN Project</a></li> -->
