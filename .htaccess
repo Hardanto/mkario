@@ -23,7 +23,7 @@ RewriteRule ^contact$ frontend/contact.php
 RewriteRule ^login$ frontend/projects/login.php
 RewriteRule ^modal$ frontend/projects/modal.php
 RewriteRule ^formfields$ frontend/projects/formfields.php
-RewriteRule ^mediafiles$ frontend/projects/mediafiles.php
+RewriteRule ^mediafiles$ frontend/projects/mediafiles.php 
 
 # Load vendor files
 RewriteRule ^vendor/autoload$ vendor/autoload.php
