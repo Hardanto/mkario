@@ -36,9 +36,9 @@
 							<a class='nav-link' href='about'>About</a>
 						</li>
 						<li class='nav-item'>
-							<a class='nav-link dropdown-toggle' class="projectsLink" href='#' role='button' data-bs-toggle='dropdown' aria-expanded='false'>Projects</a>
+							<a class='nav-link dropdown-toggle projectsLink' href='#' role='button' data-bs-toggle='dropdown' aria-expanded='false'>Projects</a>
 							<ul class='dropdown-menu'>
-								<li><a class='dropdown-item' href="projects">List of Projects</a></li>
+								<li><a class='dropdown-item' href="projects">List All Projects</a></li>
 								<li><a class='dropdown-item' href="login">Login</a></li>
 								<li><a class='dropdown-item' href="modal">Modal</a></li>
 								<li><a class='dropdown-item' href="formfields">Forms</a></li>
@@ -71,9 +71,9 @@
 							<a class='nav-link' href='about'>About</a>
 						</li>
 						<li class='nav-item'>
-							<a class='nav-link dropdown-toggle' class="projectsLink" href='#' role='button' data-bs-toggle='dropdown' aria-expanded='false'>Projects</a>
+							<a class='nav-link dropdown-toggle projectsLink' href='#' role='button' data-bs-toggle='dropdown' aria-expanded='false'>Projects</a>
 							<ul class='dropdown-menu'>
-								<li><a class='dropdown-item' href="projects">List of Projects</a></li>
+								<li><a class='dropdown-item' href="projects">List All Projects</a></li>
 								<li><a class='dropdown-item' href="login">Login</a></li>
 								<li><a class='dropdown-item' href="modal">Modal</a></li>
 								<li><a class='dropdown-item' href="formfields">Forms</a></li>
