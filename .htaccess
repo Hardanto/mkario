@@ -11,7 +11,7 @@ RewriteCond %{REQUEST_FILENAME} !-d
 
 
 # Error pages
-ErrorDocument 404 /portfolio/errors/error_404.php
+ErrorDocument 404 /errors/error_404.php
 
 # Landing page
 #RewriteRule !\.(?:jpe?g|gif|bmp|png|tiff|css|js)$ /frontend/landing.php [L,NC]

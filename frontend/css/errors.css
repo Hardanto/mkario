@@ -1,0 +1,17 @@
+body.error {
+    min-height: 100vh;
+}
+
+body.error main {
+    min-height: 100%;
+}
+
+footer.error {
+    width:      100%;
+    position:   absolute;
+    bottom:     0;
+}
+
+.container-error-404 {
+    min-height: 100%;
+}
