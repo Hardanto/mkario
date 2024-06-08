@@ -4,7 +4,7 @@ deployment:
 #
 # Root Files
 #
-    - export DEPLOYPATH=/home/lgrcvr4c0szt/repositories/mkario
+    - export DEPLOYPATH=/home/lgrcvr4c0szt/public_html/repo.mkario.com
     - /bin/cp .htaccess $DEPLOYPATH
     - /bin/cp composer $DEPLOYPATH
     - /bin/cp composer.json $DEPLOYPATH
