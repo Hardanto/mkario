@@ -1,0 +1,20 @@
+---
+deployment:
+  tasks:
+#
+# Root Files
+#
+    - export DEPLOYPATH=/home/example/public_html/repo.mkario.com
+    - /bin/cp .htaccess $DEPLOYPATH
+    - /bin/cp composer $DEPLOYPATH
+    - /bin/cp composer.json $DEPLOYPATH
+    - /bin/cp composer.lock $DEPLOYPATH
+    - /bin/cp index.php $DEPLOYPATH
+#
+# Folders with content
+#
+    - /bin/cp -R errors $DEPLOYPATH
+    - /bin/cp -R frontend $DEPLOYPATH
+    - /bin/cp -R js $DEPLOYPATH
+    - /bin/cp -R system $DEPLOYPATH
+    - /bin/cp -R vendor $DEPLOYPATH
