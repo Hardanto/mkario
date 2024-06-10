@@ -22,18 +22,12 @@ $test = new \Required\DatabasePreparations();
         <meta content='Welcome to my portoflio' name='description'/>
         <meta content='Portfolio' name='keywords'/>
         
-        
         <link rel='stylesheet' href='frontend/styling/css/style.css'/>
         
 		
 		<!-- Bootstrap -->
-		<!-- 
-			Include Bootstrap's CSS and JS files dynamically
-			So we can update it once in one file, but will update in all
-			pages that are using it
-		-->
 		
-		<?= include("includes/bootstrap.cdn.php") ?>
+		<?php include("../includes/bootstrap.cdn.php") ?>
 
         <!--
         <link rel='stylesheet' href='frontend/css/landing-style.css'/>

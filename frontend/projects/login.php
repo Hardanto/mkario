@@ -27,13 +27,8 @@ $test = new \Required\DatabasePreparations();
         
 		
 		<!-- Bootstrap -->
-		<!-- 
-			Include Bootstrap's CSS and JS files dynamically
-			So we can update it once in one file, but will update in all
-			pages that are using it
-		-->
 		
-		<?= include("includes/bootstrap.cdn.php") ?>
+		<?php include("../includes/bootstrap.cdn.php") ?>
 
         <!--
         <link rel='stylesheet' href='frontend/css/landing-style.css'/>
