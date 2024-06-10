@@ -58,6 +58,8 @@ img.languages {
 	}
 
 	body.landing-page .image-container-one {
+		position: relative;
+		color: #FFF;
 		background: #EEE url("../../img/landing/background.jpg") no-repeat fixed center/cover;
 	}
 
@@ -66,10 +68,21 @@ img.languages {
 	}
 
 	body.landing-page .image-container-three {
+		position: relative;
+		color: #FFF;
 		background: #EEE url("../../img/landing/background2.jpg") no-repeat fixed center/cover;
-		/** Code here **/
 	}
 	
+	div.image-layer {
+		position: 				absolute;
+		height: 				100%;
+		width: 					100%;
+		background-color: 		black;
+		background-size: 		cover;
+		background-position: 	center;
+		opacity: 				0.8;
+	}
+
 	div.article-container {
 		min-height: 60vh;
 		position: relative;
