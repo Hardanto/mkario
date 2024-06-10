@@ -56,4 +56,30 @@ img.languages {
 	.mobile-hidden {
 		display: block;
 	}
+
+	body.landing-page .image-container-one {
+		background-image: url("../../img/landing/background.jpg");
+		background-color: #EEE;
+	}
+
+	body.landing-page .image-container-two {
+		background-color: #FFF;
+	}
+
+	body.landing-page .image-container-three {
+		background-color: #EEE;
+		/** Code here **/
+	}
+	
+	div.article-container {
+		min-height: 60vh;
+		position: relative;
+	}
+
+	body.landing-page .container article {
+		margin: 0;
+		position: absolute;               /* 2 */
+		top: 50%;                         /* 3 */
+		transform: translate(0, -50%);
+	}
 }
