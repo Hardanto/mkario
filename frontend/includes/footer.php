@@ -79,5 +79,8 @@
 				<p>&copy;2024 Mkario.com. All rights reserved.</p>
 			</div>
 		</div>
+		<div class="row">
+			<h3>&nbsp;</h3>
+		</div>
 	</div>
 </div>

@@ -26,7 +26,14 @@ ul.footer-menus a {
 	text-decoration: none;
 }
 
+div.footer-container div.copyright {
+	position: relative;
+}
+
 div.footer-container div.copyright p {
+	position: absolute;
 	color:#CCC;
 	font-size: 1em;
+	bottom: 0;
+	margin-bottom: 0;
 }
