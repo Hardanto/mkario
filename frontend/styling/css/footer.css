@@ -5,6 +5,28 @@ footer {
 
 div.footer-container {
 	padding:				25px 0;
-	background-color:		#54595f;
-	border-top:				1px solid #CCC;
+	background-color:		#0E0E0E;
+	/* border-top:				1px solid #CCC; */
+}
+
+div.footer-container h4 {
+	color:#ccc;
+}
+
+div.footer-container ul.footer-menus {
+	list-style: none;
+	font-size: 1.2rem;
+}
+
+ul.footer-menus li {
+	margin-top: 10px;
+}
+
+ul.footer-menus a {
+	text-decoration: none;
+}
+
+div.footer-container div.copyright p {
+	color:#CCC;
+	font-size: 1em;
 }
