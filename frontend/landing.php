@@ -110,7 +110,7 @@ $test = new \Required\DatabasePreparations();
 							<div class='article-container text-center'>
 								<article>
 									<h1 class='fw-light'>Welcome to my Portfolio</h1>
-									<p>
+									<p class="lead">
 										This  part of the website is made in Linux, Apache2, MySQL and PHP, also backed by React.js and with Bootstrap for more dynamics. For now I'm only working on the User Interface of it, so no functional backend. But that is yet to come.
 									</p>
 								</article>
