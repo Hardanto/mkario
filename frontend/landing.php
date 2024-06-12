@@ -107,7 +107,7 @@ $test = new \Required\DatabasePreparations();
 					<div class='row'>
 						<div class='col'></div>
 						<div class='col-12 col-lg-6'>
-							<div class='article-container text-center'>
+							<div class='article-vcentered-container text-center'>
 								<article>
 									<h1 class='fw-light'>Welcome to my Portfolio</h1>
 									<p class="lead">
@@ -144,7 +144,7 @@ $test = new \Required\DatabasePreparations();
 						</div>
 							
 						<div class="col">
-							<div>
+							<div class="row">
 								<div class='col mt-3'>
 									<div class="article-container">
 										<article>
