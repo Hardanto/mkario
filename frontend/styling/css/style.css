@@ -83,12 +83,12 @@ body.landing-page .image-container-three {
 		opacity: 				0.8;
 	}
 
-	div.article-container {
+	div.article-vcentered-container {
 		min-height: 80vh;
 		position: relative;
 	}
 
-	body.landing-page .container article {
+	body.landing-page div.article-vcentered-container article {
 		margin: 0;
 		position: absolute;               /* 2 */
 		top: 50%;                         /* 3 */

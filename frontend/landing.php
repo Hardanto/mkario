@@ -111,8 +111,11 @@ $test = new \Required\DatabasePreparations();
 								<article>
 									<h1 class='fw-light'>Welcome to my Portfolio</h1>
 									<p class="lead">
-										This  part of the website is made in Linux, Apache2, MySQL and PHP, also backed by React.js and with Bootstrap for more dynamics. For now I'm only working on the User Interface of it, so no functional backend. But that is yet to come.
+										This is build from scratch with different types of programming languages, libraries and frameworks. Get to know my projects, my skills and myself just by surfing through my website. You might even see changes happening, while I regularly update this website.
 									</p>
+									<!-- <p class="lead">
+										This  part of the website is made in Linux, Apache2, MySQL and PHP, also backed by React.js and with Bootstrap for more dynamics. For now I'm only working on the User Interface of it, so no functional backend. But that is yet to come.
+									</p> -->
 								</article>
 							</div>
 						</div>
@@ -126,22 +129,52 @@ $test = new \Required\DatabasePreparations();
 			<div class="image-container-two">
 				<div class='container container-two'>
 					<div class='row'>
-						<div class='col'>&nbsp;</div>
-						
+					
 						<div class='col-12 col-lg-6'>
 							
-							<div class="article-container text-center">
+							<div class="article-vcentered-container text-center">
 								<article>
-									<h2 class="fw-light">Lorem ipsum dolor sit amet</h2>
+									<h2 class="fw-light">What did I use to develop this website?</h2>
 									<p>
-									Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+									As mentioned earlier, this is a website build from scratch. My previous Portfolio website was build from Wordpress, while i was designing and developing this one. I'm used to having Linux Ubuntu as operating system to support my developing machine on my local network, so I can use different devices on my network to test the outcome of my development. I code in Visual Studio Code, I make use of Apache to host the websites locally and different types of programming languages, libraries and frameworks.
 									</p>
 								</article>
 							</div>
 
 						</div>
-						
-						<div class='col'>&nbsp;</div>
+							
+						<div class="col">
+							<div>
+								<div class='col mt-3'>
+									<div class="article-container">
+										<article>
+											<h2 class="fw-light">Development setup</h2>
+											<ul style="list-style:none;padding-left:0;">
+												<li><p>Virtualbox</p></li>
+												<li><p>Linux Ubuntu 20.04 LTS</p></li>
+												<li><p>Apache 2.4.52</p></li>
+											</ul>
+										</article>
+									</div>
+								</div>
+								
+								<div class='col mt-3'>
+									<div class="article-container">
+										<article>
+											<h2 class="fw-light">List of languages</h2>
+											<ul style="list-style:none;padding-left:0;">
+												<li><p>PHP 8.1.2</p></li>
+												<li><p>HTML 5</p></li>
+												<li><p>CSS 3</p></li>
+												<li><p>Bootsrap 5.3.3 (May be different)</p></li>
+												<li><p>JavaScript ES6 (Not yet implemented)</p></li>
+												<li><p>ReactJS (Not yet implemented)</p></li>
+											</ul>
+										</article>
+									</div>
+								</div>
+							</div>
+						</div>
 					</div>
 				</div>
 			</div>
