@@ -105,7 +105,9 @@ $test = new \Required\DatabasePreparations();
 				<div class='container container-one'>
 					
 					<div class='row'>
-						<div class='col'></div>
+						<div class='col'>
+							<h1 class="my-4 py-4">&nbsp;</h1>
+						</div>
 						<div class='col-12 col-lg-6'>
 							<div class='article-vcentered-container text-center'>
 								<article>
@@ -113,13 +115,12 @@ $test = new \Required\DatabasePreparations();
 									<p class="lead">
 										This is build from scratch with different types of programming languages, libraries and frameworks. Get to know my projects, my skills and myself just by surfing through my website. You might even see changes happening, while I regularly update this website.
 									</p>
-									<!-- <p class="lead">
-										This  part of the website is made in Linux, Apache2, MySQL and PHP, also backed by React.js and with Bootstrap for more dynamics. For now I'm only working on the User Interface of it, so no functional backend. But that is yet to come.
-									</p> -->
 								</article>
 							</div>
 						</div>
-						<div class='col'></div>
+						<div class='col'>
+							<h1 class="my-4 py-4">&nbsp;</h1>
+						</div>
 					</div>
 					
 				</div>
@@ -130,9 +131,9 @@ $test = new \Required\DatabasePreparations();
 				<div class='container container-two'>
 					<div class='row'>
 					
-						<div class='col-12 col-lg-6'>
+						<div class='col-12 col-lg-5'>
 							
-							<div class="article-vcentered-container text-center">
+							<div class="article-vcentered-container text-center p-4">
 								<article>
 									<h2 class="fw-light">What did I use to develop this website?</h2>
 									<p>
@@ -142,9 +143,11 @@ $test = new \Required\DatabasePreparations();
 							</div>
 
 						</div>
-							
-						<div class="col">
-							<div class="row">
+						
+						<div class="col-12 col-lg-2"></div>
+
+						<div class="col-12 col-lg-5">
+							<div class="row mt-5 p-5">
 								<div class='col-6 col-lg-12 mt-3'>
 									<div class="article-container">
 										<article>
@@ -180,10 +183,10 @@ $test = new \Required\DatabasePreparations();
 			</div>
 			
 			<div class="image-container-three">
-			<div class="image-layer"></div>
+				<div class="image-layer"></div>
 				<div class='container container-three'>
 					<div class='row'>
-						<div class='col'></div>
+						<div class='col'><h1 class="my-4 py-4">&nbsp;</h1></div>
 						<div class='col-12 col-lg-6'>
 							<div class="article-vcentered-container text-center">
 								<article>
@@ -194,14 +197,38 @@ $test = new \Required\DatabasePreparations();
 								</article>
 							</div>
 						</div>
-						<div class='col'></div>
+						<div class='col'><h1 class="my-4 py-4">&nbsp;</h1></div>
+					</div>
+				</div>
+			</div>
+
+			<div class="image-container-four">
+				<div class='container container-four'>
+					<div class="row py-3">
+						<div class="col">
+							<h1 class="fw-light text-center m-0 bg-quote"><span>&ldquo;</span> You can only loose when you quit <span>&rdquo;</span></h1>
+						</div>
 					</div>
 				</div>
 			</div>
 
 			<div class="image-container-five">
-				<div class='container container-four'>
-					
+				<div class="image-layer"></div>
+				<div class='container container-five'>
+					<div class="row">
+						<div class="col"><h1 class="my-4 py-4">&nbsp;</h1></div>
+						<div class="col-12 col-lg-6">
+							<div class="article-vcentered-container text-center">
+								<article>
+									<h4 class="fw-light">Lorem ipsum</h4>
+									<p class="fw-light">
+										Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce tempus sodales commodo. Morbi diam magna, mollis eget ligula at, ornare ultricies ante. Vivamus accumsan velit at lobortis tempor. Curabitur iaculis magna neque, sit amet volutpat orci tincidunt non. Vestibulum vitae sapien eget dui sagittis pharetra. Morbi massa lacus, ullamcorper ac suscipit ut, pretium lobortis mi. Pellentesque sed pulvinar massa. Nulla venenatis sagittis metus, maximus feugiat metus maximus in. Nam at nunc sit amet nibh varius scelerisque. Praesent ipsum augue, feugiat porttitor arcu sit amet, aliquet euismod libero. Sed congue felis eget finibus consectetur. Etiam id tortor orci. Duis non lectus eget velit iaculis accumsan. Fusce vestibulum erat in magna ultricies, eget congue metus aliquam.
+									</p>
+								</article>
+							</div>
+						</div>
+						<div class="col"><h1 class="my-4 py-4">&nbsp;</h1></div>
+					</div>
 				</div>
 			</div>
 		</main>

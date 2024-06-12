@@ -1,6 +1,6 @@
 /****		Font Family		****/
 @import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;1,100;1,300;1,400;1,500;1,700&display=swap");
-
+@import url('https://fonts.googleapis.com/css2?family=Catamaran:wght@100..900&display=swap');
 
 h1, h2, h3, h4, h5, h6, p, a {
 	font-family: 	'Roboto', sans-serif;
@@ -13,4 +13,12 @@ p {
 
 a {
 	color:		#fff !important;
+}
+
+.bg-quote span {
+	font-size: 6rem;
+	vertical-align: middle;
+	margin: 0 2rem;
+	font-family: catamaran;
+	font-weight: 100;
 }
