@@ -145,7 +145,7 @@ $test = new \Required\DatabasePreparations();
 							
 						<div class="col">
 							<div class="row">
-								<div class='col mt-3'>
+								<div class='col-6 col-lg-12 mt-3'>
 									<div class="article-container">
 										<article>
 											<h2 class="fw-light">Development setup</h2>
@@ -158,7 +158,7 @@ $test = new \Required\DatabasePreparations();
 									</div>
 								</div>
 								
-								<div class='col mt-3'>
+								<div class='col-6 col-lg-12 mt-3'>
 									<div class="article-container">
 										<article>
 											<h2 class="fw-light">List of languages</h2>
@@ -185,7 +185,7 @@ $test = new \Required\DatabasePreparations();
 					<div class='row'>
 						<div class='col'></div>
 						<div class='col-12 col-lg-6'>
-							<div class="article-container text-center">
+							<div class="article-vcentered-container text-center">
 								<article>
 									<h2 class="fw-light">Sed ut perspiciatis</h2>
 									<p>
