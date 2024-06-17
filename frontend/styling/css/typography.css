@@ -11,14 +11,21 @@ p {
 	font-size:		15px;
 }
 
-a {
-	color:		#fff !important;
+.landing-welcome span {
+	color: rgb(101, 46, 141);
+	font-weight: 400;
+}
+
+.bg-quote {
+	font-weight: 400;
+	font-style: italic;
+	color: rgb(101, 46, 141);
 }
 
 .bg-quote span {
+	font-family: catamaran;
 	font-size: 6rem;
 	vertical-align: middle;
 	margin: 0 2rem;
-	font-family: catamaran;
 	font-weight: 100;
 }

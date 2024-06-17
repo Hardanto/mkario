@@ -1,11 +1,8 @@
-<!-- <script>
-	console.log(`The header javascript works!`);
-	var projects = document.querySelector('.projectsLink');
-	console.log(projects);
-	// projects.addEventListener('click', function(e){
-	// 	console.log("You clicked the link");
-	// }, false);
-</script> -->
+<?php
+$page = explode('/', $_SERVER['REQUEST_URI'])[1];
+$projects = array('projects','login', 'modal', 'formfields', 'mediafiles');
+echo in_array($page, $projects);
+?>
 <nav>
 	<div class='container primary-header-container text-center'>
 		<div class='row'>
@@ -30,19 +27,19 @@
 				<div class='spacer'>
 					<ul class='nav'>
 						<li class='nav-item'>
-							<a class='nav-link' href='home'>Home</a>
+							<a class='nav-link <?php if($page == "home") echo "active" ?>' href='home'>Home</a>
 						</li>
 						<li class='nav-item'>
-							<a class='nav-link' href='about'>About</a>
+							<a class='nav-link <?php if($page == "about") echo "active" ?>' href='about'>About</a>
 						</li>
 						<li class='nav-item'>
-							<a class='nav-link dropdown-toggle projectsLink' href='#' role='button' data-bs-toggle='dropdown' aria-expanded='false'>Projects</a>
+							<a class='nav-link <?php if(is_bool(array_search($page, $projects))) echo "active" ?> dropdown-toggle projectsLink' href='#' role='button' data-bs-toggle='dropdown' aria-expanded='false'>Projects</a>
 							<ul class='dropdown-menu'>
-								<li><a class='dropdown-item' href="projects">List All Projects</a></li>
-								<li><a class='dropdown-item' href="login">Login</a></li>
-								<li><a class='dropdown-item' href="modal">Modal</a></li>
-								<li><a class='dropdown-item' href="formfields">Forms</a></li>
-								<li><a class='dropdown-item' href="mediafiles">Media Files</a></li>
+								<li><a class='dropdown-item <?php if($page == "projects") echo "active" ?>' href="projects">List All Projects</a></li>
+								<li><a class='dropdown-item <?php if($page == "login") echo "active" ?>' href="login">Login</a></li>
+								<li><a class='dropdown-item <?php if($page == "modal") echo "active" ?>' href="modal">Modal</a></li>
+								<li><a class='dropdown-item <?php if($page == "formfields") echo "active" ?>' href="formfields">Forms</a></li>
+								<li><a class='dropdown-item <?php if($page == "mediafiles") echo "active" ?>' href="mediafiles">Media Files</a></li>
 								<!-- <li><a class='dropdown-item' href="#">Bisszip</a></li> -->
 								<!-- <li><a class='dropdown-item' href="#">Presence</a></li> -->
 								<!-- <li><a class='dropdown-item' href="#">MERN Project</a></li> -->
@@ -50,7 +47,7 @@
 							</ul>
 						</li>
 						<li class='nav-item'>
-							<a class='nav-link' href='contact'>Contact</a>
+							<a class='nav-link <?php if($page == "contact") echo "active" ?>' href='contact'>Contact</a>
 						</li>
 					</ul>
 				</div>
@@ -65,19 +62,19 @@
 				<div class='mobile-hidden'>
 					<ul class='nav'>
 						<li class='nav-item'>
-							<a class='nav-link' href='home'>Home</a>
+							<a class='nav-link <?php if($page == "home") echo "active" ?>' href='home'>Home</a>
 						</li>
 						<li class='nav-item'>
-							<a class='nav-link' href='about'>About</a>
+							<a class='nav-link <?php if($page == "about") echo "active" ?>' href='about'>About</a>
 						</li>
 						<li class='nav-item'>
-							<a class='nav-link dropdown-toggle projectsLink' href='#' role='button' data-bs-toggle='dropdown' aria-expanded='false'>Projects</a>
+							<a class='nav-link <?php if(in_array($page, $projects)) echo "active" ?> dropdown-toggle projectsLink' href='#' role='button' data-bs-toggle='dropdown' aria-expanded='false'>Projects</a>
 							<ul class='dropdown-menu'>
-								<li><a class='dropdown-item' href="projects">List All Projects</a></li>
-								<li><a class='dropdown-item' href="login">Login</a></li>
-								<li><a class='dropdown-item' href="modal">Modal</a></li>
-								<li><a class='dropdown-item' href="formfields">Forms</a></li>
-								<li><a class='dropdown-item' href="mediafiles">Media Files</a></li>
+								<li><a class='dropdown-item <?php if($page == "projects") echo "active" ?>' href="projects">List All Projects</a></li>
+								<li><a class='dropdown-item <?php if($page == "login") echo "active" ?>' href="login">Login</a></li>
+								<li><a class='dropdown-item <?php if($page == "modal") echo "active" ?>' href="modal">Modal</a></li>
+								<li><a class='dropdown-item <?php if($page == "formfields") echo "active" ?>' href="formfields">Forms</a></li>
+								<li><a class='dropdown-item <?php if($page == "mediafiles") echo "active" ?>' href="mediafiles">Media Files</a></li>
 								<!-- <li><a class='dropdown-item' href="#">Bisszip</a></li> -->
 								<!-- <li><a class='dropdown-item' href="#">Presence</a></li> -->
 								<!-- <li><a class='dropdown-item' href="#">MERN Project</a></li> -->
@@ -85,7 +82,7 @@
 							</ul>
 						</li>
 						<li class='nav-item'>
-							<a class='nav-link' href='contact'>Contact</a>
+							<a class='nav-link <?php if($page == "contact") echo "active" ?>' href='contact'>Contact</a>
 						</li>
 					</ul>
 				</div>

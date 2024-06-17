@@ -3,6 +3,7 @@
 @import "forms.css";
 @import "header.css";
 @import "images.css";
+@import "links.css";
 @import "typography.css";
 
 /* body {
@@ -57,9 +58,9 @@ body.landing-page .image-container-one {
 	background: #EEE url("../../img/landing/background.jpg") no-repeat fixed center/cover;
 }
 
-body.landing-page .image-container-two {
+/* body.landing-page .image-container-two {
 	background-color: #FFF;
-}
+} */
 
 body.landing-page .image-container-three {
 	position: relative;
@@ -67,9 +68,9 @@ body.landing-page .image-container-three {
 	background: #EEE url("../../img/landing/background2.jpg") no-repeat fixed center/cover;
 }
 
-body.landing-page .image-container-four {
+/* body.landing-page .image-container-four {
 
-}
+} */
 
 body.landing-page .image-container-five {
 	position: relative;

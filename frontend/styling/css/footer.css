@@ -1,16 +1,17 @@
 footer {
 	/** maybe some styling? **/
-	margin:auto;
+	margin:	auto;
 }
 
 div.footer-container {
 	padding:				25px 0;
 	background-color:		#0E0E0E;
+	color:					#CCC;
 	/* border-top:				1px solid #CCC; */
 }
 
 div.footer-container h4 {
-	color:#ccc;
+	color:	#CCC;
 }
 
 div.footer-container ul.footer-menus {

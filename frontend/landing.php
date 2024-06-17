@@ -111,7 +111,7 @@ $test = new \Required\DatabasePreparations();
 						<div class='col-12 col-lg-6'>
 							<div class='article-vcentered-container text-center'>
 								<article>
-									<h1 class='fw-light'>Welcome to my Portfolio</h1>
+									<h1 class='fw-light landing-welcome'>Welcome to my <span>P</span>ortfolio</h1>
 									<p class="lead">
 										This is build from scratch with different types of programming languages, libraries and frameworks. Get to know my projects, my skills and myself just by surfing through my website. You might even see changes happening, while I regularly update this website.
 									</p>
@@ -206,7 +206,8 @@ $test = new \Required\DatabasePreparations();
 				<div class='container container-four'>
 					<div class="row py-3">
 						<div class="col">
-							<h1 class="fw-light text-center m-0 bg-quote"><span>&ldquo;</span> You can only loose when you quit <span>&rdquo;</span></h1>
+							<h1 class="text-center m-0 bg-quote"><span>&ldquo;</span> You only lose when you quit <span>&rdquo;</span></h1>
+							<p class="text-center mt-0">- Paulo Coelho -</p>
 						</div>
 					</div>
 				</div>

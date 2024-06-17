@@ -1,3 +1,7 @@
+<?php
+$url = explode('/', $_SERVER['REQUEST_URI'])[1];
+
+?>
 <div class='footer-container'>
 	<div class='container'>
 		<div class="row">
@@ -11,11 +15,33 @@
 			</div>
 			<div class="col-12 col-lg-5 py-4 px-2">
 				<h4 class="fw-light">Like my Portfolio Website?</h4>
-				
+				<div class="row">
+					<div class="col-12"><p>Checkout my other pages</p></div>
+					<div class="col">in</div>
+					<div class="col">Gh</div>
+					<div class="col">X</div>
+				</div>
 			</div>
 			<div class="col-6 col-lg-2 py-4 px-2">
-				<h4 class="fw-light">Column two</h4>
-				<ul class="footer-menus">
+				<h4 class="fw-light text-center">Navigation</h4>
+				<ul class="footer-menus text-center p-0">
+					<li>
+						<a class="active" href="#">Home</a>
+					</li>
+					<li>
+						<a href="#">About</a>
+					</li>
+					<li>
+						<a href="#">Projects</a>
+					</li>
+					<li>
+						<a href="#">Contact</a>
+					</li>
+				</ul>
+			</div>
+			<div class="col-6 col-lg-2 py-4 px-2">
+				<h4 class="fw-light text-center">Column three</h4>
+				<ul class="footer-menus text-center p-0">
 					<li>
 						<a href="#">Link 1</a>
 					</li>
@@ -31,25 +57,8 @@
 				</ul>
 			</div>
 			<div class="col-6 col-lg-2 py-4 px-2">
-				<h4 class="fw-light">Column three</h4>
-				<ul class="footer-menus">
-					<li>
-						<a href="#">Link 1</a>
-					</li>
-					<li>
-						<a href="#">Link 2</a>
-					</li>
-					<li>
-						<a href="#">Link 3</a>
-					</li>
-					<li>
-						<a href="#">Link 4</a>
-					</li>
-				</ul>
-			</div>
-			<div class="col-6 col-lg-2 py-4 px-2">
-				<h4 class="fw-light">Column four</h4>
-				<ul class="footer-menus">
+				<h4 class="fw-light text-center">Column four</h4>
+				<ul class="footer-menus text-center p-0">
 					<li>
 						<a href="#">Link 1</a>
 					</li>
