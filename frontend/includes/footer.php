@@ -1,7 +1,3 @@
-<?php
-$url = explode('/', $_SERVER['REQUEST_URI'])[1];
-
-?>
 <div class='footer-container'>
 	<div class='container'>
 		<div class="row">
@@ -26,16 +22,16 @@ $url = explode('/', $_SERVER['REQUEST_URI'])[1];
 				<h4 class="fw-light text-center">Navigation</h4>
 				<ul class="footer-menus text-center p-0">
 					<li>
-						<a class="active" href="#">Home</a>
+						<a class="<?php if($page == "home") echo "active" ?>" href="home">Home</a>
 					</li>
 					<li>
-						<a href="#">About</a>
+						<a class="<?php if($page == "about") echo "active" ?>" href="about">About</a>
 					</li>
 					<li>
-						<a href="#">Projects</a>
+						<a class="<?php if(in_array($page, $projects)) echo "active" ?>" href="projects">Projects</a>
 					</li>
 					<li>
-						<a href="#">Contact</a>
+						<a class="<?php if($page == "contact") echo "active" ?>" href="contact">Contact</a>
 					</li>
 				</ul>
 			</div>

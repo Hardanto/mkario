@@ -33,7 +33,7 @@ echo in_array($page, $projects);
 							<a class='nav-link <?php if($page == "about") echo "active" ?>' href='about'>About</a>
 						</li>
 						<li class='nav-item'>
-							<a class='nav-link <?php if(is_bool(array_search($page, $projects))) echo "active" ?> dropdown-toggle projectsLink' href='#' role='button' data-bs-toggle='dropdown' aria-expanded='false'>Projects</a>
+							<a class='nav-link <?php if(in_array($page, $projects)) echo "active" ?> dropdown-toggle projectsLink' href='#' role='button' data-bs-toggle='dropdown' aria-expanded='false'>Projects</a>
 							<ul class='dropdown-menu'>
 								<li><a class='dropdown-item <?php if($page == "projects") echo "active" ?>' href="projects">List All Projects</a></li>
 								<li><a class='dropdown-item <?php if($page == "login") echo "active" ?>' href="login">Login</a></li>
