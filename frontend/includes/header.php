@@ -1,7 +1,6 @@
 <?php
 $page = explode('/', $_SERVER['REQUEST_URI'])[1];
 $projects = array('projects','login', 'modal', 'formfields', 'mediafiles');
-echo in_array($page, $projects);
 ?>
 <nav>
 	<div class='container primary-header-container text-center'>
