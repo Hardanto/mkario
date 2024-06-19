@@ -12,10 +12,13 @@
 			<div class="col-12 col-lg-5 py-4 px-2">
 				<h4 class="fw-light">Like my Portfolio Website?</h4>
 				<div class="row">
-					<div class="col-12"><p>Checkout my other pages</p></div>
-					<div class="col">in</div>
-					<div class="col">Gh</div>
-					<div class="col">X</div>
+					<div class="col-12"><p>Checkout my other networks</p></div>
+					<div class="col">
+						<a href="https://github.com/Hardanto?tab=repositories"><i class="fa-brands fa-github"></i></a>
+						<a href="#"><i class="fa-brands fa-linkedin-in ms-3"></i></a>
+						<a href="#"><i class="fa-brands fa-x-twitter ms-3"></i></a>
+					</div>
+					<div class="col-8"></div>
 				</div>
 			</div>
 			<div class="col-6 col-lg-2 py-4 px-2">

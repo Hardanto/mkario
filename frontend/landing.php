@@ -71,7 +71,12 @@ $test = new \Required\DatabasePreparations();
         <script type='text/javascript' src='js/jquery.mobile-1.4.5.js'></script>
         <script type='text/javascript' src='js/jquery.min.js'></script>
         -->
-        
+
+		<!--
+			Font Awesome
+		-->
+        <script src="https://kit.fontawesome.com/f135823fed.js" crossorigin="anonymous"></script>
+		
     </head>
 
 	<body class="landing-page">
@@ -169,8 +174,8 @@ $test = new \Required\DatabasePreparations();
 												<li><p>PHP 8.1.2</p></li>
 												<li><p>HTML 5</p></li>
 												<li><p>CSS 3</p></li>
-												<li><p>Bootsrap 5.3.3 (May be different)</p></li>
-												<li><p>JavaScript ES6 (Not yet implemented)</p></li>
+												<li><p>Bootsrap 5.3.3</p></li>
+												<!-- <li><p>JavaScript ES6 (Not yet implemented)</p></li> -->
 												<li><p>ReactJS (Not yet implemented)</p></li>
 											</ul>
 										</article>
@@ -190,9 +195,9 @@ $test = new \Required\DatabasePreparations();
 						<div class='col-12 col-lg-6'>
 							<div class="article-vcentered-container text-center">
 								<article>
-									<h2 class="fw-light">Sed ut perspiciatis</h2>
+									<h2 class="fw-light">My Skills</h2>
 									<p>
-									Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?
+									I can write a whole lot about my skill, so I'll keep it just about web development. I have knowledge of setting up website or webappliciations via webhosting, dedicated servers or just locally hosted webservers for publicly available websites. I can develop webistes in different languages for frontend and backend. The visual expect is for me just as important as security, because we like a good looking website, but don't want it to be vulnerable for attacks. If you would like to go in depth about my skills <a href="about#skills">Click here</a>
 									</p>
 								</article>
 							</div>
@@ -221,9 +226,9 @@ $test = new \Required\DatabasePreparations();
 						<div class="col-12 col-lg-6">
 							<div class="article-vcentered-container text-center">
 								<article>
-									<h4 class="fw-light">Lorem ipsum</h4>
+									<h4 class="fw-light">Communication</h4>
 									<p class="fw-light">
-										Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce tempus sodales commodo. Morbi diam magna, mollis eget ligula at, ornare ultricies ante. Vivamus accumsan velit at lobortis tempor. Curabitur iaculis magna neque, sit amet volutpat orci tincidunt non. Vestibulum vitae sapien eget dui sagittis pharetra. Morbi massa lacus, ullamcorper ac suscipit ut, pretium lobortis mi. Pellentesque sed pulvinar massa. Nulla venenatis sagittis metus, maximus feugiat metus maximus in. Nam at nunc sit amet nibh varius scelerisque. Praesent ipsum augue, feugiat porttitor arcu sit amet, aliquet euismod libero. Sed congue felis eget finibus consectetur. Etiam id tortor orci. Duis non lectus eget velit iaculis accumsan. Fusce vestibulum erat in magna ultricies, eget congue metus aliquam.
+										One great aspect we definitely should have for business is communication. Without it, what's the purpose of business? So if you would like to contact me to discuss what we can do for business, check out my <a href="contact">contact page</a>.
 									</p>
 								</article>
 							</div>
