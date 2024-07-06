@@ -23,6 +23,11 @@ require_once('../vendor/autoload.php');
 		<?php include("../frontend/includes/bootstrap.cdn.php"); ?>
 
 
+		<!--
+			Font Awesome
+		-->
+        <script src="https://kit.fontawesome.com/f135823fed.js" crossorigin="anonymous"></script>
+		
     </head>
 
 	<body class="error e404">

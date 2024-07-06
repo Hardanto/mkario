@@ -42,6 +42,11 @@ $test = new \Required\DatabasePreparations();
         <script type='text/javascript' src='js/jquery.min.js'></script>
         -->
         
+		<!--
+			Font Awesome
+		-->
+        <script src="https://kit.fontawesome.com/f135823fed.js" crossorigin="anonymous"></script>
+		
     </head>
 
 	<body>
