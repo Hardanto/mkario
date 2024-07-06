@@ -88,6 +88,10 @@ div.image-layer {
 	opacity: 				0.8;
 }
 
+div.about-container-color-offwhite {
+	background-color: #EEE;
+}
+
 @media (min-width: 992px) {
 	.spacer {
 		display: none;
