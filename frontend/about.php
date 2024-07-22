@@ -146,13 +146,44 @@ require_once('../vendor/autoload.php');
                 <div class='row text-center'>
                     <div class='col-12 col-lg-2'>&nbsp;</div>
                     <div class='col-12 col-lg-8'>
-                    <h2 class='text-center mb-5'>Experiences</h2>
+                    <h2 class='text-center mb-5'>Skills</h2>
                         <img src="frontend/img/aboutimg/WebDevBG.png" class='languages mt-5' alt="There should be an image here!">
                     </div>
                     <div class='col-12 col-lg-2'>&nbsp;</div>
                 </div>
             </div>
         </div>
+        <!-- <div class='about-container-color-offwhite'>
+            <div class='container container-about'>
+                <div class='row text-center'>
+                    <div class='col-12 col-lg-2'>&nbsp;</div>
+                    <div class='col-12 col-lg-8'>
+                        <h2 class='text-center mb-5'>Resume</h2>
+                    </div>
+                    <div class='col-12 col-lg-2'><h3>&nbsp;</h3></div>
+                </div>
+                <div class='row text-center'>
+                    <div class='col-12 col-lg-6'>
+                        <h4>Resume comes here</h4>
+                        <ul style="list-style:none;">
+                            <li><p>List one</p></li>
+                            <li><p>List two</p></li>
+                            <li><p>List three</p></li>
+                            <li><p>List four</p></li>
+                        </ul>
+                    </div>
+                    <div class='col-12 col-lg-6'>
+                        <h4>Resume comes here</h4>
+                        <ul style="list-style:none;">
+                            <li><p>List one</p></li>
+                            <li><p>List two</p></li>
+                            <li><p>List three</p></li>
+                            <li><p>List four</p></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div> -->
 		<footer>
 			
 			<?php include('includes/footer.php'); ?>

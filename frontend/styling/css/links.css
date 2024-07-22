@@ -1,4 +1,4 @@
-a {
+a.nav-link {
 	color:		#fff !important;
 }
 
@@ -14,4 +14,9 @@ a.active {
     box-shadow: 0 4px 20px #411163;
     background-color: #560293;
     border-radius: 10%;
+}
+
+a.project-link {
+    color: #212529 !important;
+    text-decoration: none;
 }

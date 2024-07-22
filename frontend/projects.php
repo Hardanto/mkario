@@ -54,22 +54,60 @@ require_once('../vendor/autoload.php');
 		</header>
 		
 		<div class='container container-one'>
-				
+			
+            <div class="row py-4">
+                <h1>&nbsp;</h1>
+            </div>
             <div class='row'>
                 <div class='col'></div>
                 <div class='col-6'>
                     <h1 class='fw-light' style='text-align:center;'>Projects</h1>
                     <p class='text-center'>
-                        This is one of the projects, so no need to add it to my projects page, right?
+                        This is one of the projects, so there is actually no need to add it to my projects page, but I've still added it to my projects.
                     </p>
                 </div>
                 <div class='col'></div>
             </div>
-            
+            <div class="row py-4">
+                <h1>&nbsp;</h1>
+            </div>
             <div class='row'>
-                <h2>Project 1</h2>
-                <div class='col-6'></div>
-                <div class='col-6'></div>
+                <a href="https://www.mkario.com/" class='project-link'>
+                    <div class='row py-3 border'>
+                        <h5>Wordpress</h5>
+                        <div class='col'>
+                            <img src='frontend/img/PortfolioLogoDark.png' height="50px" />
+                        </div>
+                        <div class='col'>
+                            <p>Lorem ipsum dolor</p>
+                        </div>
+                    </div>
+                </a>
+                <a href="home" class='project-link mt-4'>
+                    <div class='row py-3 border'>
+                        <h5>Linux, Apache, MySQL, PHP and JavaScript</h5>    
+                        <div class='col-6'>
+                            <img src='frontend/img/PortfolioLogoDark.png' height="50px" />
+                        </div>
+                        <div class='col-6'>
+                            <p>Lorem ipsum dolor</p>
+                        </div>
+                    </div>
+                </a>
+                <a href="#" class='project-link mt-4'>
+                    <div class='row py-3 border'>
+                        <h5>ReactJS</h5>    
+                        <div class='col-6'>
+                            <img src='frontend/img/PortfolioLogoDark.png' height="50px" />
+                        </div>
+                        <div class='col-6'>
+                            <p>Lorem ipsum dolor</p>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class='row py-4'>
+                <h1>&nbsp;</h1>
             </div>
         </div>
 		
