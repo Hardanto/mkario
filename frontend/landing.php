@@ -113,7 +113,7 @@ $test = new \Required\DatabasePreparations();
 						<div class='col'>
 							<h1 class="my-4 py-4">&nbsp;</h1>
 						</div>
-						<div class='col-12 col-lg-6'>
+						<div class='col-12 col-lg-6 first-article reveal firstReveal'>
 							<div class='article-vcentered-container text-center'>
 								<article>
 									<h1 class='fw-light landing-welcome'>Welcome to my <span>P</span>ortfolio</h1>
@@ -136,7 +136,7 @@ $test = new \Required\DatabasePreparations();
 				<div class='container container-two'>
 					<div class='row'>
 					
-						<div class='col-12 col-lg-5'>
+						<div class='col-12 col-lg-5 left-column reveal'>
 							
 							<div class="article-vcentered-container text-center p-4">
 								<article>
@@ -151,7 +151,7 @@ $test = new \Required\DatabasePreparations();
 						
 						<div class="col-12 col-lg-2"></div>
 
-						<div class="col-12 col-lg-5">
+						<div class="col-12 col-lg-5 right-column reveal">
 							<div class="row mt-5 p-5">
 								<div class='col-6 col-lg-12 mt-3'>
 									<div class="article-container">
@@ -194,8 +194,8 @@ $test = new \Required\DatabasePreparations();
 						<div class='col'><h1 class="my-4 py-4">&nbsp;</h1></div>
 						<div class='col-12 col-lg-6'>
 							<div class="article-vcentered-container text-center">
-								<article>
-									<h2 class="fw-light">My Skills</h2>
+								<article class='reveal'>
+									<h2 class="fw-light mb-4">My Skills</h2>
 									<p>
 									I can write a whole lot about my skill, so I'll keep it just about web development. I have knowledge of setting up website or webappliciations via webhosting, dedicated servers or just locally hosted webservers for publicly available websites. I can develop webistes in different languages for frontend and backend. The visual expect is for me just as important as security, because we like a good looking website, but don't want it to be vulnerable for attacks. If you would like to go in depth about my skills <a href="about#skills">Click here</a>
 									</p>
@@ -208,11 +208,11 @@ $test = new \Required\DatabasePreparations();
 			</div>
 
 			<div class="image-container-four">
-				<div class='container container-four'>
+				<div class='container container-four reveal'>
 					<div class="row py-3">
 						<div class="col">
-							<h1 class="text-center m-0 bg-quote"><span>&ldquo;</span> You only lose when you quit <span>&rdquo;</span></h1>
-							<p class="text-center mt-0">- Paulo Coelho -</p>
+							<h1 class="text-center mb-0 bg-quote"><span>&ldquo;</span> You only lose when you quit <span>&rdquo;</span></h1>
+							<p class="text-center">- Paulo Coelho -</p>
 						</div>
 					</div>
 				</div>
@@ -220,7 +220,7 @@ $test = new \Required\DatabasePreparations();
 
 			<div class="image-container-five">
 				<div class="image-layer"></div>
-				<div class='container container-five'>
+				<div class='container container-five reveal'>
 					<div class="row">
 						<div class="col"><h1 class="my-4 py-4">&nbsp;</h1></div>
 						<div class="col-12 col-lg-6">
@@ -246,11 +246,54 @@ $test = new \Required\DatabasePreparations();
 		</footer>
 	</body>
 	<script type="text/javascript">
-		console.log(`The header javascript works!`);
-		var projects = document.querySelector('.projectsLink');
-		console.log(projects);
-		// projects.addEventListener('click', function(e){
-		// 	console.log("You clicked the link");
-		// }, false);
+		
+		// Reveal what is already in the sight
+		window.onload = reveal;
+
+		// Reveal what is coming in sight
+		window.addEventListener('scroll', reveal);
+
+		// Function to reveal content
+		function reveal () {
+			
+			// Get all the content that should be revealed
+			var reveals = document.querySelectorAll('.reveal');
+			
+			// Loop through them
+			for (var i = 0; i < reveals.length; i++){
+
+				// What's the height of the window?
+				var windowheight = window.innerHeight;
+
+				// How far down is the current content?
+				var revealtop = reveals[i].getBoundingClientRect().top;
+
+				// Add some points
+				var revealpoint = 300;
+				
+				// If the content reached a certain height
+				if (revealtop < windowheight - revealpoint) {
+					
+					// We'll add the active class to the container
+					reveals[i].classList.add('active');
+				}
+				// If the content drops below a certain height
+				else {
+					
+					// We'll remove the active class from the container
+					reveals[i].classList.remove('active');
+				}
+			}
+		}
+
+		// function myFunction() {
+		// 	return console.log("Clicked!");
+		// }
+		
+		// var projects = document.getElementById('projectsLink');
+		// // console.log(projects);
+		// projects.addEventListener('click', function (e) {
+		// 	return console.log('Inline Click!');
+		// });
 	</script>
 </html>

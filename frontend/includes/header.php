@@ -32,7 +32,7 @@ $projects = array('projects','login', 'modal', 'formfields', 'mediafiles');
 							<a class='nav-link <?php if($page == "about") echo "active" ?>' href='about'>About</a>
 						</li>
 						<li class='nav-item'>
-							<a class='nav-link <?php if(in_array($page, $projects)) echo "active" ?> dropdown-toggle projectsLink' href='#' role='button' data-bs-toggle='dropdown' aria-expanded='false'>Projects</a>
+							<a class='nav-link <?php if(in_array($page, $projects)) echo "active" ?> dropdown-toggle projectsLink' id='projectsLink' href='#' role='button' data-bs-toggle='dropdown' aria-expanded='false'>Projects</a>
 							<ul class='dropdown-menu'>
 								<li><a class='dropdown-item <?php if($page == "projects") echo "active" ?>' href="projects">List All Projects</a></li>
 								<li><a class='dropdown-item <?php if($page == "login") echo "active" ?>' href="login">Login</a></li>
@@ -64,10 +64,10 @@ $projects = array('projects','login', 'modal', 'formfields', 'mediafiles');
 							<a class='nav-link <?php if($page == "home") echo "active" ?>' href='home'>Home</a>
 						</li>
 						<li class='nav-item'>
-							<a class='nav-link <?php if($page == "about") echo "active" ?>' href='about'>About</a>
+							<a class='nav-link <?php if($page == "about") echo "active" ?> projectsLink' href='about'>About</a>
 						</li>
 						<li class='nav-item'>
-							<a class='nav-link <?php if(in_array($page, $projects)) echo "active" ?> dropdown-toggle projectsLink' href='#' role='button' data-bs-toggle='dropdown' aria-expanded='false'>Projects</a>
+							<a class='nav-link <?php if(in_array($page, $projects)) echo "active" ?> dropdown-toggle projectsLink' href='#' role='button' data-bs-toggle='dropdown' aria-expanded='false' onclick=''>Projects</a>
 							<ul class='dropdown-menu'>
 								<li><a class='dropdown-item <?php if($page == "projects") echo "active" ?>' href="projects">List All Projects</a></li>
 								<li><a class='dropdown-item <?php if($page == "login") echo "active" ?>' href="login">Login</a></li>

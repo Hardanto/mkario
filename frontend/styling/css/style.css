@@ -68,9 +68,9 @@ body.landing-page .image-container-three {
 	background: #EEE url("../../img/landing/background2.jpg") no-repeat fixed center/cover;
 }
 
-/* body.landing-page .image-container-four {
-
-} */
+body.landing-page .image-container-four {
+	height: 185px;
+}
 
 body.landing-page .image-container-five {
 	position: relative;
@@ -92,6 +92,117 @@ div.about-container-color-offwhite {
 	background-color: #EEE;
 }
 
+/***
+	Landing page styles for animations
+***/
+
+/* First section's article */
+body.landing-page div.first-article article {
+	opacity: 	0;
+	top: 		60%;
+	transition: all 2s ease;
+}
+
+body.landing-page div.first-article.active article {
+	opacity: 	1;
+	top:		50%;
+}
+
+/* Second section's article on the left */
+div.container-two div.left-column article {
+	opacity: 		0;
+	margin: 		0 100px 0 -100px;
+	transition: 	all 2s ease;
+}
+
+div.container-two div.left-column.active article {
+	opacity: 		1;
+	margin: 		0;
+}
+
+/* Second section's article on the right top */
+div.container-two div.right-column div.col-6:nth-child(1) article {
+	opacity: 		0;
+	margin-left: 	100px;
+	transition: 	all 2s ease;
+}
+
+div.container-two div.right-column.active div.col-6:nth-child(1) article {
+	opacity: 		1;
+	margin-left: 	0;
+}
+
+/* Second section's article on the right bottom */
+div.container-two div.right-column div.col-6:nth-child(2) article {
+	position: 		absolute;
+	opacity: 		0;
+	margin-top: 	150px;
+	transition: 	all 2s ease;
+}
+
+div.container-two div.right-column.active div.col-6:nth-child(2) article {
+	opacity: 		1;
+	margin-top: 	0;
+}
+
+/* Third section's article */
+div.container-three article.reveal h2 {
+	margin-left: 	-100px;
+	opacity: 		0;
+	transition: 	all 1s ease;
+}
+
+div.container-three article.reveal p {
+	margin: 		0 -100px 0 100px;
+	opacity: 		0;
+	transition: 	all 1s ease;
+}
+
+div.container-three article.reveal.active h2, div.container-three article.reveal.active p {
+	margin: 	0;
+	opacity: 		1;
+}
+
+/* Fourth section content */
+div.container-four.reveal h1:not(span) {
+	opacity: 0;
+	transition: all 1s ease;
+}
+
+div.container-four.reveal.active h1:not(span) {
+	opacity: 1;
+}
+/* 
+div.container-four.reveal h1 span {
+	transition: all 1s ease;
+	transition-delay: 1.5s;
+} */
+
+div.container-four.reveal p {
+	margin-top: 50px;
+	transition: all 1s ease;
+	transition-delay: .5s;
+}
+
+div.container-four.reveal.active p {
+	margin-top: 0;
+}
+
+/* Fifth section's article */
+div.container-five.reveal h4 {
+	margin-top: 100px;
+	transition: all 1s ease;
+}
+
+div.container-five.reveal p {
+	margin-top: -100px;
+	transition: all 1s ease;
+}
+
+div.container-five.reveal.active h4, div.container-five.reveal.active p {
+	margin-top: 0;
+}
+
 @media (min-width: 992px) {
 	.spacer {
 		display: none;
@@ -106,10 +217,11 @@ div.about-container-color-offwhite {
 		position: relative;
 	}
 
-	body.landing-page div.article-vcentered-container article {
-		margin: 0;
+	div.article-vcentered-container article {
 		position: absolute;               /* 2 */
 		top: 50%;                         /* 3 */
 		transform: translate(0, -50%);
+		/* opacity: 0;
+		transition: all 2s ease; */
 	}
 }
