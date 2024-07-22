@@ -20,3 +20,7 @@ a.project-link {
     color: #212529 !important;
     text-decoration: none;
 }
+
+div.footer-container a {
+    color:#FFF;
+}
