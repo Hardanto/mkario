@@ -60,10 +60,10 @@ require_once('../vendor/autoload.php');
             </div>
             <div class='row'>
                 <div class='col'></div>
-                <div class='col-12 col-lg-8'>
+                <div class='col-12 col-lg-10'>
                     <h1 class='fw-light text-center'>About</h1>
                     <p class='text-center lead'>
-                        I will tell you about myself as soon as I'm finished developing this version, so for now <i class="fa-light fa-face-smile-wink"></i>... <br>
+                        I will tell you about myself as soon as I'm finished developing this version, so for now <i class="fa-regular fa-face-smile-wink"></i>... <br><br>
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
                     </p>
                 </div>

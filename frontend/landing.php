@@ -175,8 +175,8 @@ $test = new \Required\DatabasePreparations();
 												<li><p>HTML 5</p></li>
 												<li><p>CSS 3</p></li>
 												<li><p>Bootsrap 5.3.3</p></li>
-												<!-- <li><p>JavaScript ES6 (Not yet implemented)</p></li> -->
-												<li><p>ReactJS (Not yet implemented)</p></li>
+												<li><p>JavaScript ES6 (Not yet implemented)</p></li>
+												<!-- <li><p>ReactJS (Not yet implemented)</p></li> -->
 											</ul>
 										</article>
 									</div>
