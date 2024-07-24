@@ -21,9 +21,9 @@ $projects = array('projects','login', 'modal', 'formfields', 'mediafiles');
 				On smaller screens
 			-->
 
-			<div class='col-12 col-lg-1 d-flex align-items-center justify-content-center spacer' data-bs-theme='dark'>
+			<div class='col-12 col-lg-1 d-flex align-items-center justify-content-center' data-bs-theme='dark'>
 			<!--<div class='collapse navbar-collapse' data-bs-theme='dark'> -->
-				<div class='spacer'>
+				<div class='large-screen-hidden'>
 					<ul class='nav'>
 						<li class='nav-item'>
 							<a class='nav-link <?php if($page == "home") echo "active" ?>' href='home'>Home</a>

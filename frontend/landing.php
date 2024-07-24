@@ -152,33 +152,67 @@ $test = new \Required\DatabasePreparations();
 						<div class="col-12 col-lg-2"></div>
 
 						<div class="col-12 col-lg-5 right-column reveal">
-							<div class="row mt-5 p-5">
-								<div class='col-6 col-lg-12 mt-3'>
-									<div class="article-container">
-										<article>
-											<h2 class="fw-light">Development setup</h2>
-											<ul style="list-style:none;padding-left:0;">
-												<li><p>Virtualbox</p></li>
-												<li><p>Linux Ubuntu 20.04 LTS</p></li>
-												<li><p>Apache 2.4.52</p></li>
-											</ul>
-										</article>
+							<div class='mobile-hidden'>
+								<div class="row mt-5 p-5">
+									<div class='col-6 col-lg-12 mt-3'>
+										<div class="article-container">
+											<article>
+												<h2 class="fw-light">Development setup</h2>
+												<ul style="list-style:none;padding-left:0;">
+													<li><p>Virtualbox</p></li>
+													<li><p>Linux Ubuntu 20.04 LTS</p></li>
+													<li><p>Apache 2.4.52</p></li>
+												</ul>
+											</article>
+										</div>
+									</div>
+									
+									<div class='col-6 col-lg-12 mt-3'>
+										<div class="article-container">
+											<article>
+												<h2 class="fw-light">List of languages</h2>
+												<ul style="list-style:none;padding-left:0;">
+													<li><p>PHP 8.1.2</p></li>
+													<li><p>HTML 5</p></li>
+													<li><p>CSS 3</p></li>
+													<li><p>Bootsrap 5.3.3</p></li>
+													<li><p>JavaScript ES6 (Not yet implemented)</p></li>
+													<!-- <li><p>ReactJS (Not yet implemented)</p></li> -->
+												</ul>
+											</article>
+										</div>
 									</div>
 								</div>
-								
-								<div class='col-6 col-lg-12 mt-3'>
-									<div class="article-container">
-										<article>
-											<h2 class="fw-light">List of languages</h2>
-											<ul style="list-style:none;padding-left:0;">
-												<li><p>PHP 8.1.2</p></li>
-												<li><p>HTML 5</p></li>
-												<li><p>CSS 3</p></li>
-												<li><p>Bootsrap 5.3.3</p></li>
-												<li><p>JavaScript ES6 (Not yet implemented)</p></li>
-												<!-- <li><p>ReactJS (Not yet implemented)</p></li> -->
-											</ul>
-										</article>
+							</div>
+							<div class='large-screen-hidden'>
+								<div class="row p-5 large-screen-hidden">
+									<div class='col-6 col-lg-12 mt-3'>
+										<div class="article-container">
+											<article>
+												<h2 class="fw-light">Development setup</h2>
+												<ul style="list-style:none;padding-left:0;">
+													<li><p>Virtualbox</p></li>
+													<li><p>Linux Ubuntu 20.04 LTS</p></li>
+													<li><p>Apache 2.4.52</p></li>
+												</ul>
+											</article>
+										</div>
+									</div>
+									
+									<div class='col-6 col-lg-12 mt-3'>
+										<div class="article-container">
+											<article>
+												<h2 class="fw-light">List of languages</h2>
+												<ul style="list-style:none;padding-left:0;">
+													<li><p>PHP 8.1.2</p></li>
+													<li><p>HTML 5</p></li>
+													<li><p>CSS 3</p></li>
+													<li><p>Bootsrap 5.3.3</p></li>
+													<li><p>JavaScript ES6 (Not yet implemented)</p></li>
+													<!-- <li><p>ReactJS (Not yet implemented)</p></li> -->
+												</ul>
+											</article>
+										</div>
 									</div>
 								</div>
 							</div>
