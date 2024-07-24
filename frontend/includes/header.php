@@ -34,7 +34,7 @@ $projects = array('projects','login', 'modal', 'formfields', 'mediafiles');
 						<li class='nav-item'>
 							<a class='nav-link <?php if(in_array($page, $projects)) echo "active" ?> dropdown-toggle projectsLink' id='projectsLink' href='#' role='button' data-bs-toggle='dropdown' aria-expanded='false'>Projects</a>
 							<ul class='dropdown-menu'>
-								<li><a class='dropdown-item <?php if($page == "projects") echo "active" ?>' href="projects">List All Projects</a></li>
+								<li><a class='dropdown-item <?php if($page == "projects") echo "active" ?>' href="projects">List of All Projects</a></li>
 								<li><a class='dropdown-item <?php if($page == "login") echo "active" ?>' href="login">Login</a></li>
 								<li><a class='dropdown-item <?php if($page == "modal") echo "active" ?>' href="modal">Modal</a></li>
 								<li><a class='dropdown-item <?php if($page == "formfields") echo "active" ?>' href="formfields">Forms</a></li>
@@ -69,7 +69,7 @@ $projects = array('projects','login', 'modal', 'formfields', 'mediafiles');
 						<li class='nav-item'>
 							<a class='nav-link <?php if(in_array($page, $projects)) echo "active" ?> dropdown-toggle projectsLink' href='#' role='button' data-bs-toggle='dropdown' aria-expanded='false' onclick=''>Projects</a>
 							<ul class='dropdown-menu'>
-								<li><a class='dropdown-item <?php if($page == "projects") echo "active" ?>' href="projects">List All Projects</a></li>
+								<li><a class='dropdown-item <?php if($page == "projects") echo "active" ?>' href="projects">List of All Projects</a></li>
 								<li><a class='dropdown-item <?php if($page == "login") echo "active" ?>' href="login">Login</a></li>
 								<li><a class='dropdown-item <?php if($page == "modal") echo "active" ?>' href="modal">Modal</a></li>
 								<li><a class='dropdown-item <?php if($page == "formfields") echo "active" ?>' href="formfields">Forms</a></li>

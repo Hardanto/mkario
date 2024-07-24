@@ -74,23 +74,23 @@ require_once('../vendor/autoload.php');
             <div class='row'>
                 <a href="https://www.mkario.com/" class='project-link'>
                     <div class='row py-3 border'>
-                        <h5>Wordpress</h5>
+                        <h5>Wordpress portfolio website</h5>
                         <div class='col'>
                             <img src='frontend/img/PortfolioLogoDark.png' height="50px" />
                         </div>
                         <div class='col'>
-                            <p>Lorem ipsum dolor</p>
+                            <p>Go to my wordpress website, which has a different design.</p>
                         </div>
                     </div>
                 </a>
                 <a href="home" class='project-link mt-4'>
                     <div class='row py-3 border'>
-                        <h5>Linux, Apache, MySQL, PHP and JavaScript</h5>    
+                        <h5>LAMP, Bootstrap and JavaScript portfolio website</h5>
                         <div class='col-6'>
                             <img src='frontend/img/PortfolioLogoDark.png' height="50px" />
                         </div>
                         <div class='col-6'>
-                            <p>Lorem ipsum dolor</p>
+                            <p>This is my portfolio website built with Linux, Apache, MySQL(not so implemented) and PHP supported with Bootstrap and JavaScript.</p>
                         </div>
                     </div>
                 </a>
@@ -101,7 +101,7 @@ require_once('../vendor/autoload.php');
                             <img src='frontend/img/PortfolioLogoDark.png' height="50px" />
                         </div>
                         <div class='col-6'>
-                            <p>Lorem ipsum dolor</p>
+                            <p>Designed my portfolio website with ReactJS.</p>
                         </div>
                     </div>
                 </a>
