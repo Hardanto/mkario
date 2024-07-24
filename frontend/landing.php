@@ -220,12 +220,12 @@ $test = new \Required\DatabasePreparations();
 
 			<div class="image-container-five">
 				<div class="image-layer"></div>
-				<div class='container container-five reveal'>
+				<div class='container container-five'>
 					<div class="row">
 						<div class="col"><h1 class="my-4 py-4">&nbsp;</h1></div>
 						<div class="col-12 col-lg-6">
 							<div class="article-vcentered-container text-center">
-								<article>
+								<article class='reveal'>
 									<h4 class="fw-light">Communication</h4>
 									<p class="fw-light">
 										One great aspect we definitely should have for business is communication. Without it, what's the purpose of business? So if you would like to contact me to discuss what we can do for business, check out my <a href="contact">contact page</a>.
@@ -267,9 +267,9 @@ $test = new \Required\DatabasePreparations();
 
 				// How far down is the current content?
 				var revealtop = reveals[i].getBoundingClientRect().top;
-
+				
 				// Add some points
-				var revealpoint = 300;
+				var revealpoint = i == 4 ? 150 : 300;
 				
 				// If the content reached a certain height
 				if (revealtop < windowheight - revealpoint) {

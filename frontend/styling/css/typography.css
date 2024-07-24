@@ -17,15 +17,29 @@ p {
 }
 
 .bg-quote {
-	font-weight: 400;
-	font-style: italic;
-	color: rgb(101, 46, 141);
+	font-weight: 	400;
+	font-style: 	italic;
+	font-size: 		5vw;
+	color: 			rgb(101, 46, 141);
 }
 
 .bg-quote span {
 	font-family: catamaran;
-	font-size: 6rem;
+	font-size: 4rem;		/* This should be 6rem on bigger screens */
 	vertical-align: middle;
-	margin: 0 2rem;
+	margin: 0;				/* This should be '0 2rem' in bigger screens */
 	font-weight: 100;
+}
+
+
+@media (min-width: 992px) {
+
+	.bg-quote {
+		font-size: 2.5rem;
+	}
+
+	.bg-quote span {
+		font-size:  	6rem;
+		margin: 		0 2rem;
+	}
 }
