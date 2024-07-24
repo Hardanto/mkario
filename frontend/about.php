@@ -81,7 +81,7 @@ require_once('../vendor/autoload.php');
                     <div class='col-12 col-lg-6 text-center'>
                         <img src="frontend/img/aboutimg/clock.png" class='about-img' alt="Time">
                     </div>
-                    <div class='col-12 spacer'>&nbsp;</div>
+                    <div class='col-12 large-screen-hidden'>&nbsp;</div>
                     <div class='col-12 col-lg-6 d-flex align-items-center'>
                         <div class='container'>
                             <div class='row'>
@@ -112,7 +112,7 @@ require_once('../vendor/autoload.php');
                             </div>
                         </div>
                     </div>
-                    <div class='col-12 spacer'>&nbsp;</div>
+                    <div class='col-12 large-screen-hidden'>&nbsp;</div>
                     <div class='col-12 col-lg-6 text-center'>
                         <img src="frontend/img/aboutimg/magician.png" class='about-img' alt="There should be an image here!">
                     </div>
@@ -125,7 +125,7 @@ require_once('../vendor/autoload.php');
                     <div class='col-12 col-lg-6 text-center'>
                         <img src="frontend/img/aboutimg/bullseye.png" class='about-img' alt="There should be an image here!">
                     </div>
-                    <div class='col-12 spacer'>&nbsp;</div>
+                    <div class='col-12 large-screen-hidden'>&nbsp;</div>
                     <div class='col-12 col-lg-6 d-flex align-items-center'>
                         <div class='container'>
                             <div class='row'>
