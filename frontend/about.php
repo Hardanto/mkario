@@ -78,20 +78,20 @@ require_once('../vendor/autoload.php');
 
             <div class='container container-about'>
                 <div class='row'>
-                    <div class='col-12 col-lg-6 text-center'>
-                        <img src="frontend/img/aboutimg/clock.png" class='about-img' alt="Time">
+                    <div class='col-12 col-lg-6 text-center reveal left-block'>
+                        <div class='content'>
+                            <img src="frontend/img/aboutimg/clock.png" class='about-img' alt="Time">
+                        </div>
                     </div>
                     <div class='col-12 large-screen-hidden'>&nbsp;</div>
-                    <div class='col-12 col-lg-6 d-flex align-items-center'>
+                    <div class='col-12 col-lg-6 d-flex align-items-center reveal right-block'>
                         <div class='container'>
-                            <div class='row'>
+                            <article class='content'>
                                 <h2 class='fw-light'>Start</h2>
-                            </div>
-                            <div class='row'>
                                 <p class='lead'>
                                     I started learning HTML and CSS in early 2013, which interested me but not enough to make it my career and had at that time another job in logistics.A few years later a got a job in development to work with PHP and even though I knew nothing at that time about PHP I took it and knew that I could make something out of it. I was happy with the job and found my path to the future.
                                 </p>
-                            </div>
+                            </article>
                         </div>
                     </div>
                 </div>
@@ -100,21 +100,21 @@ require_once('../vendor/autoload.php');
         <div class='about-container-wrap'>
             <div class='container container-about'>
                 <div class='row'>
-                    <div class='col-12 col-lg-6 d-flex align-items-center'>
+                    <div class='col-12 col-lg-6 d-flex align-items-center reveal left-block'>
                         <div class='container'>
-                            <div class='row'>
+                            <article class='content'>
                                 <h2 class='fw-light'>Skills</h2>
-                            </div>
-                            <div class='row'>
                                 <p class='lead'>
                                     There are a lot of developing languages to learn and if that’s not enough there are also a whole lot of other ways to create websites and web apps. I like starting from scratch, because I can than choose my own path to the finish line and make the app as light as I can. So this means that I should be able not only to code in different languages, but also to know which codes are heavier, set up servers, pointing domain names to the hosting servers, setup version controllers, etc.
                                 </p>
-                            </div>
+                            </article>
                         </div>
                     </div>
                     <div class='col-12 large-screen-hidden'>&nbsp;</div>
-                    <div class='col-12 col-lg-6 text-center'>
-                        <img src="frontend/img/aboutimg/magician.png" class='about-img' alt="There should be an image here!">
+                    <div class='col-12 col-lg-6 text-center reveal right-block'>
+                        <div class='content'>
+                            <img src="frontend/img/aboutimg/magician.png" class='about-img' alt="There should be an image here!">
+                        </div>
                     </div>
                 </div>
             </div>
@@ -122,20 +122,20 @@ require_once('../vendor/autoload.php');
         <div class='about-container-color-offwhite'>
             <div class='container container-about'>
                 <div class='row'>
-                    <div class='col-12 col-lg-6 text-center'>
-                        <img src="frontend/img/aboutimg/bullseye.png" class='about-img' alt="There should be an image here!">
+                    <div class='col-12 col-lg-6 text-center reveal left-block'>
+                        <div class='content'>
+                            <img src="frontend/img/aboutimg/bullseye.png" class='about-img' alt="There should be an image here!">
+                        </div>
                     </div>
                     <div class='col-12 large-screen-hidden'>&nbsp;</div>
-                    <div class='col-12 col-lg-6 d-flex align-items-center'>
+                    <div class='col-12 col-lg-6 d-flex align-items-center reveal right-block'>
                         <div class='container'>
-                            <div class='row'>
+                            <article class='content'>
                                 <h2 class='fw-light'>Mission</h2>
-                            </div>
-                            <div class='row'>
                                 <p class='lead'>
                                     A fast and secure development comes with a clear visual and understanding of the goal. Web developing plays a big part of the business industry, because a business that can’t be found on the internet wont reach it’s max potential customers. To get the most out of a business, it needs to be found easily and so I’m dedicated in developing websites and web applications, doesn’t matter which tools, languages and systems are used. I am open to learn and will practice more ways to develop.
                                 </p>
-                            </div>
+                            </article>
                         </div>
                     </div>
                 </div>
@@ -145,8 +145,8 @@ require_once('../vendor/autoload.php');
             <div class='container container-about'>
                 <div class='row text-center'>
                     <div class='col-12 col-lg-2'>&nbsp;</div>
-                    <div class='col-12 col-lg-8'>
-                    <h2 class='text-center mb-5'>Skills</h2>
+                    <div class='col-12 col-lg-8 reveal one-block'>
+                        <h2 class='text-center mb-5'>Skills</h2>
                         <img src="frontend/img/aboutimg/WebDevBG.png" class='languages mt-5' alt="There should be an image here!">
                     </div>
                     <div class='col-12 col-lg-2'>&nbsp;</div>
@@ -190,4 +190,45 @@ require_once('../vendor/autoload.php');
 			
 		</footer>
 	</body>
+    <script>
+        
+        // Reveal when the window is loaded
+        //window.onload = reveal;
+
+        // Call Reveal function when scrolling
+        window.addEventListener('scroll', reveal);
+
+        // The function
+        function reveal () {
+
+			// Get all the content that should be revealed
+			var reveals = document.querySelectorAll('.reveal');
+			
+			// Loop through them
+			for (var i = 0; i < reveals.length; i++){
+
+				// What's the height of the window?
+				var windowheight = window.innerHeight;
+
+				// How far down is the current content?
+				var revealtop = reveals[i].getBoundingClientRect().top;
+				
+				// Add some points
+				var revealpoint = i == 6 ? 300 : 150;
+				
+				// If the content reached a certain height
+				if (revealtop < windowheight - revealpoint) {
+					
+					// We'll add the active class to the container
+					reveals[i].classList.add('active');
+				}
+				// If the content drops below a certain height
+				else {
+					
+					// We'll remove the active class from the container
+					reveals[i].classList.remove('active');
+				}
+			}
+        }
+    </script>
 </html>
