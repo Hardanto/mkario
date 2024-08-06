@@ -1,0 +1,30 @@
+a.nav-link {
+	color:		#fff !important;
+}
+
+a.dropdown-nav-link {
+    
+}
+
+a.active:not(.nav-link) {
+    color: rgb(101, 46, 141) !important;
+    box-shadow: none;
+    background-color: unset;
+    border-radius: 0%;
+}
+
+a.active {
+    font-weight: 500;
+    box-shadow: 0 4px 20px #411163;
+    background-color: #560293;
+    border-radius: 10%;
+}
+
+a.project-link {
+    color: #212529 !important;
+    text-decoration: none;
+}
+
+div.footer-container a {
+    color:#FFF;
+}

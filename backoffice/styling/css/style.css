@@ -1,0 +1,110 @@
+@import "errors.css";
+@import "footer.css";
+@import "forms.css";
+@import "header.css";
+@import "icons.css";
+@import "images.css";
+@import "links.css";
+@import "reveal.css";
+@import "typography.css";
+
+/* body {
+	position:			relative;
+	display:			grid;
+	grid-template-rows:	auto 1fr;
+	min-height:			100vh;
+} */
+
+header {
+	position:			relative;
+	background-color: 	indigo;
+	color:				white;
+	z-index:			2;
+}
+
+div.body-container {
+	position:			absolute;
+	min-height:			100vh;
+	width:				100%;
+	top:				0;
+	background-color:	blue;
+	z-index:			1;
+}
+
+div.container-one, div.container-three, div.container-five {
+	/* padding:	50px 0;
+	min-height:	70vh; */
+	z-index: 1;
+	position: inherit;
+}
+
+div.container-about {
+	padding:	100px 0;
+}
+
+div.offwhite-bg {
+	background-color: #FAFAFA;
+}
+
+img.languages {
+	width: 100%;
+}
+
+.mobile-hidden {
+	display: none;
+}
+
+body.login-portal .image-container-one {
+	position: relative;
+	background: #EEE url("../../img/landing/background.jpg") no-repeat fixed center/cover;
+}
+
+div.image-layer {
+	position: 				absolute;
+	height: 				100%;
+	width: 					100%;
+	background-color: 		black;
+	background-size: 		cover;
+	background-position: 	center;
+	opacity: 				0.8;
+}
+
+div.about-container-color-offwhite {
+	background-color: #EEE;
+}
+
+/* Center articles vertical on mobile */
+div.article-vcentered-container {
+	min-height: 50vh;
+	position: relative;
+}
+
+div.article-vcentered-container article {
+	position: 	absolute;
+	top: 		50%;
+	transform: 	translate(0, -50%);
+	overflow: 	hidden;
+}
+
+@media (min-width: 992px) {
+	
+	/* Don't exist on large screens */
+	.large-screen-hidden {
+		display: none;
+	}
+
+	/* Don't exist on mobile screens */
+	.mobile-hidden {
+		display: block;
+	}
+
+	/* For vertical centering articles on large screens */
+	div.article-vcentered-container {
+		min-height: 80vh;
+	}
+
+	body.login-portal .image-container-four {
+		height: 185px;
+	}
+
+}

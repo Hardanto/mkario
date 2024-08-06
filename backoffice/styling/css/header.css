@@ -14,10 +14,6 @@ div.menu-button button {
     color: #FFF;
 }
 
-di.menu-button a.dropdown-item {
-    color:#FFF;
-}
-
 .dropdown-menu {
     background: indigo !important;
 }

@@ -76,30 +76,36 @@ $test = new \Required\DatabasePreparations();
 			</div>
 			
 			<div class='container container-two'>
+				<div>
+					<h2>&nbsp;</h2>
+				</div>
+			</div>
+
+			<div class='container container-three'>
 				<div class='row'>
 					<div class='col'>&nbsp;</div>
 					
 					<div class='col-12 col-lg-6'>
 						<div>
 							<form>
-							<h4 class='fw-light mb-5 text-center'>Login form</h4>
-							<div class='mb-3'>
-								<div class='form-floating'>
-									<input class='form-control' id='usernameInput' placeholder='Username'/>
-									<label for='usernameInput'>Username</label>
+								<h4 class='fw-light mb-5 text-center'>Login form</h4>
+								<div class='mb-3'>
+									<div class='form-floating'>
+										<input class='form-control' id='usernameInput' placeholder='Username'/>
+										<label for='usernameInput'>Username</label>
+									</div>
 								</div>
-							</div>
-							
-							<div class='mb-3'>
-								<div class='form-floating'>
-									<input type='password' class='form-control' id='passwordInput' placeholder='Password' />
-									<label class='passwordInput'>Password</label>
+								
+								<div class='mb-3'>
+									<div class='form-floating'>
+										<input type='password' class='form-control' id='passwordInput' placeholder='Password' />
+										<label class='passwordInput'>Password</label>
+									</div>
 								</div>
-							</div>
-							
-							<button type='button' class='btn btn-secondary' data-bs-toggle='modal' data-bs-target='#exampleModal'>Cancel</button>
-							<button type='button' class='btn btn-success' data-bs-toggle='modal' data-bs-target='#exampleModal'>Submit</button>
-							
+								
+								<button type='button' class='btn btn-secondary' data-bs-toggle='modal' data-bs-target='#exampleModal'>Cancel</button>
+								<button type='button' class='btn btn-success' data-bs-toggle='modal' data-bs-target='#exampleModal'>Submit</button>
+								
 							</form>
 						</div>
 
@@ -146,11 +152,11 @@ $test = new \Required\DatabasePreparations();
 					<div class='col'>&nbsp;</div>
 				</div>
 			</div>
-			<div class='container container-three'>
-				
-			</div>
+
 			<div class='container container-four'>
-				
+				<div>
+					<h2>&nbsp;</h2>
+				</div>
 			</div>
 			
 		</div>

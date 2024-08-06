@@ -13,7 +13,7 @@ RewriteCond %{REQUEST_FILENAME} !-d
 # Error pages
 ErrorDocument 404 /errors/error_404.php
 
-# Landing page
+# Visitors pages
 #RewriteRule !\.(?:jpe?g|gif|bmp|png|tiff|css|js)$ /frontend/landing.php [L,NC]
 RewriteRule ^$ index.php
 RewriteRule ^home$ frontend/landing.php
@@ -24,6 +24,9 @@ RewriteRule ^login$ frontend/projects/login.php
 RewriteRule ^modal$ frontend/projects/modal.php
 RewriteRule ^formfields$ frontend/projects/formfields.php
 RewriteRule ^mediafiles$ frontend/projects/mediafiles.php
+
+# Backoffice pages
+RewriteRule ^loginportal$ backoffice/loginportal.php
 
 # Load vendor files
 RewriteRule ^vendor/autoload$ vendor/autoload.php

@@ -1,0 +1,40 @@
+footer {
+	/** maybe some styling? **/
+	margin:	auto;
+}
+
+div.footer-container {
+	padding:				25px 0;
+	background-color:		#0E0E0E;
+	color:					#CCC;
+	/* border-top:				1px solid #CCC; */
+}
+
+div.footer-container h4 {
+	color:	#CCC;
+}
+
+div.footer-container ul.footer-menus {
+	list-style: none;
+	font-size: 1.2rem;
+}
+
+ul.footer-menus li {
+	margin-top: 10px;
+}
+
+ul.footer-menus a {
+	text-decoration: none;
+}
+
+div.footer-container div.copyright {
+	position: relative;
+}
+
+div.footer-container div.copyright p {
+	position: absolute;
+	color:#CCC;
+	font-size: 1em;
+	bottom: 0;
+	margin-bottom: 0;
+}
